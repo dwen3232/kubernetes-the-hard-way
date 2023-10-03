@@ -141,6 +141,8 @@ for i in 0 1 2; do
 done
 ```
 
+DAV: the quota is 8 CPUs, so I'm only going to create 2 controllers and workers
+
 ### Verification
 
 List the compute instances in your default compute zone:
