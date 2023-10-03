@@ -126,4 +126,6 @@ f98dc20bce6225a0, started, controller-0, https://10.240.0.10:2380, https://10.24
 ffed16798470cab5, started, controller-1, https://10.240.0.11:2380, https://10.240.0.11:2379, false
 ```
 
+DAV: I made a mistake here, I created the etcd.service config with controller-2. I tried removing it and restarting the daemon and the server, but it's still showing in the cluster members. Not sure what's going on or how to fix this
+
 Next: [Bootstrapping the Kubernetes Control Plane](08-bootstrapping-kubernetes-controllers.md)
